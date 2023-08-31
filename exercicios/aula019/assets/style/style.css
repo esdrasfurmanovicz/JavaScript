@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(157, 228, 224, 0.466);
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.696);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.container h1{
+    text-align: center;
+    margin: 30px 0px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tabela{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+label{
+    display: block;
+    font-size: 1.3em;
+}
+div > input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 50px;
+    font-size: 1.7em;
+    padding: 0px 20px;
+}
+div > input:focus{
+    outline: 1px solid inherit;
+}
+form > button{
+    border: none;
+    background-color: rgb(139, 206, 206);
+    padding: 5px;
+    margin: auto;
+    font-weight: bold;
+    font-size: 1.3em;
+    width: 100%;
+    cursor: pointer;
+}
+form > button:hover{
+    background-color: rgb(63, 94, 94);
+}
+.result{
+    background-color: rgb(135, 200, 135);
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.result p{
+    padding: 10px;
+    height: 100%;
+}
+.erro{
+    background-color: rgb(244, 0, 0);
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.erro p{
+    padding: 10px;
+    height: 100%;
+}

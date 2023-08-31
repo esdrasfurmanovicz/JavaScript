@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to bottom, rgb(0, 170, 170), aquamarine);
+            min-height: 100vh;
+        }
+        section{
+            background-color: white;
+            min-width: 60vw;
+            min-height: 40vh;
+            padding: 20px;
+            border: black solid 2.5px;
+            border-radius: 20px;
+        }
+        h1{
+            text-align: center;
+        }
+        form{
+            width: 70%;
+            margin: 50px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .enviar{
+            width: 100%;
+            background: rgb(61, 227, 61);
+            margin-top: 20px;
+            cursor: pointer;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        .resultado{
+            text-align: center;
+            font-size: 1.4em;
+        }
+        .numero{
+            font-size: 1.2em;
+
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h1>Traguinho</h1>
+        <form class="formulario">
+            <div class="numero">
+                <label for="inum1">Numero 1: </label>
+                <input type="text" name="num1" id="num1">
+            </div>
+            <div class="numero">
+                <label for="inum1">Numero 2: </label>
+                <input type="text" name="num2" id="num2">
+            </div>
+            <input type="submit" value="Enviar" class="enviar">
+        </form>
+        <div><p class="resultado"></p></div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
