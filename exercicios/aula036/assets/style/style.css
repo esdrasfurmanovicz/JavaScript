@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(52, 101, 99, 0.466);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.696);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7em;
+    min-width: 40vw;
+    min-height: 20vh;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+.container h1{
+    text-align: center;
+    margin: 30px 0px 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+label{
+    display: block;
+    font-size: 1.3em;
+}
+div > input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 50px;
+    font-size: 1.7em;
+    padding: 0px 20px;
+}
+div > input:focus{
+    outline: 1px solid inherit;
+}
