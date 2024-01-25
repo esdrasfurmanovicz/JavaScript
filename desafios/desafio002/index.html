@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Border radius</h1>
+        <div id="square"></div>
+        <div class="divBR">
+            <div class="rangeS">
+                <label>Top Left Radius</label>
+                <input type="range" min="0" max="100" value="0" id="topLeft">
+                <p id="tlValue">0%</p>
+            </div>
+            <div class="rangeS">
+                <label>Top Right Radius</label>
+                <input type="range" min="0" max="100" value="0" id="topRight">
+                <p id="trValue">0%</p>
+            </div>
+            <div class="rangeS">
+                <label> Bottom Right Radius</label>
+                <input type="range" min="0" max="100" value="0" id="bottomRight">
+                <p id="brValue">0%</p>
+            </div>
+            <div class="rangeS">
+                <label>Bottom Left Radius</label>
+                <input type="range" min="0" max="100" value="0" id="bottomLeft">
+                <p id="blValue">0%</p>
+            </div>
+        </div>
+        <div class="c">
+            <button id="copiar">Copiar CSS</button>
+            <span id="span">Copiado!</span>
+            <button id="zerar">Zerar</button>
+        </div>
+    </section>
+    <script src="assets/JS/script.js"></script>
+</body>
+
+</html>
